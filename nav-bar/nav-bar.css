@@ -7,24 +7,24 @@
     font-family: 'PT Sans Narrow', sans-serif;
     display: relative;
     background-color: #DDA0DD;
-    height: 7rem;
-    top: 0%;
-    width: 100%;
-    box-shadow: 1px 3px 4px #866512;
+    height: 10vh;
+    top: 0;
+    width: 100vw;
+    box-shadow: 0.5vh 0.8vh 0.8vh #866512;
     justify-content: space-evenly;
 
 }
 
 #logo-nav{
-    position: relative;
-    width: 40%;
-    top: -2rem;
-    left: 20%;
+    position: flex;
+    width: 10vw;
+    margin-top:-5vh;
+    margin-left: 7vw;
 }
 
 li{
     display: inline-block;
-    margin-right: 1%;
+    margin-right: 3vw;
 }
 a{
     color: #866512;
@@ -37,18 +37,17 @@ a:hover{
 }
 
 #botoes-centrais{
-    position: fixed;
-    display: center;
-    top: 2.5rem;
-    left: 30%;
-    font-size: 200%;
-    width: 50%;
+    position: flex;
+    display: inherit;
+    margin-left: 25vw;
+    margin-top: -14vh;
+    font-size: 4vh;
 }
 
 #botoes-esquerda{
-    position: fixed;
-    display: inline-block;
-    width: calc(50% - 2px);
-    right: -35%;
-    top:2rem;
+    position: flex;
+    display: flex;
+    margin-top:-6vh;
+    margin-left: 80vw;
+    
 }
