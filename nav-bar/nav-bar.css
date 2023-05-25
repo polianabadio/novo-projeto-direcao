@@ -3,7 +3,7 @@
     margin:0;
     padding: 0;
 }
-@media screen and (min-width: 601px) {
+@media screen and (min-width: 801px) {
 #caixa-da-nav{
     font-family: 'PT Sans Narrow', sans-serif;
     display: flex;
@@ -54,7 +54,7 @@ a:hover{
     
 }}
 
-@media screen and (max-width: 600px) {
+@media screen and (max-width: 800px) {
     #caixa-da-nav{
         font-family: 'PT Sans Narrow', sans-serif;
         display: flex;
@@ -68,15 +68,15 @@ a:hover{
     
     #logo-nav{
         position: absolute;
-        display: flex;
-        height: 10vh;
-        top:-0vh;
+        display: none;
+        height: 6vh;
+        top:1.8vh;
         left: 0;
     }
     
     li{
         display: inline-block;
-        margin-right: 0.5vw;
+        margin-right: 1vw;
     }
     a{
         color: #866512;
@@ -91,7 +91,7 @@ a:hover{
     #botoes-centrais{
         position: absolute;
         display: inherit;
-        left: 18vw;
+        left: 3vw;
         font-size: 2vh;
         top:3vh;
         
