@@ -53,7 +53,11 @@ a:hover{
     top: 2vh;
     left: 80vw;
     
-}}
+}
+#caixa-da-nav .index{
+    color:#B31748;
+}
+}
 
 @media screen and (max-width: 800px) {
     #caixa-da-nav{
@@ -105,5 +109,8 @@ a:hover{
         top: 1vh;
         left: 85vw;
         
+    }
+    #caixa-da-nav .index{
+        color:#B31748;
     }
 }
