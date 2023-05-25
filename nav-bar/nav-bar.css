@@ -5,21 +5,21 @@
 }
 #caixa-da-nav{
     font-family: 'PT Sans Narrow', sans-serif;
-    display: relative;
+    display: flex;
     background-color: #DDA0DD;
     height: 10vh;
-    top: 0;
     width: 100vw;
     box-shadow: 0.5vh 0.8vh 0.8vh #866512;
     justify-content: space-evenly;
-
+    
 }
 
 #logo-nav{
-    position: flex;
-    width: 10vw;
-    margin-top:-5vh;
-    margin-left: 7vw;
+    position: absolute;
+    display: flex;
+    height: 20vh;
+    top:-4.2vh;
+    left: 4vw;
 }
 
 li{
@@ -37,17 +37,18 @@ a:hover{
 }
 
 #botoes-centrais{
-    position: flex;
+    position: absolute;
     display: inherit;
-    margin-left: 25vw;
-    margin-top: -14vh;
-    font-size: 4vh;
+    left: 25%;
+    font-size: 2vw;
+    top:3vh;
+    
 }
 
 #botoes-esquerda{
-    position: flex;
+    position: absolute;
     display: flex;
-    margin-top:-6vh;
-    margin-left: 80vw;
+    top: 1vh;
+    left: 80vw;
     
 }
