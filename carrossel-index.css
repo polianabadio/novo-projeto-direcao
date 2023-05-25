@@ -68,24 +68,47 @@
   }
 
   #legenda-foto{
+    display: flex;
+    align-items: center;
+    justify-content: center;
     position: absolute;
     bottom: 0;
     left: 10%;
     right: 0;
-    color: #fff;
     padding: 1%;
     font-family: 'PT Sans Narrow', sans-serif;
-    top:50%;
-    font-size: 20px;
+    top: 75vh;
+    font-size: 100%;
+    color: #DDA0DD;
+    text-shadow: 2px 2px 4px  rgba(0, 0, 0, 1);
     
+    height: 0.8vh;
+    width: 31vw;
+    border-radius: 10px ;
+    border: 2px solid #DDA0DD;
+  }
+  #legenda-foto h3{
+    display: flex; /* Ativa o flexbox para o alinhamento vertical */
+    align-items: center; /* Alinha os itens verticalmente ao centro */
+    justify-content: center;
+  }
+
+  #icones{
+    position: fixed;
+    bottom: 50px;
+    right: 100px;
+    z-index: 999;
+    text-decoration: none;
   }
   
-  .legenda-button:hover{
-    color:#B31748;
+  #fixos{
+    display: inline-block;
+    width: calc(50% - 2px); 
+    font-size: 16px; 
+    text-align: center;
+    color: #866512 ;
   }
   
-  .legenda-button{
-    text-stroke: 1px #DDA0DD;
-    -webkit-text-stroke: 1px #DDA0DD;
-    color:#866512;
+  #fixos:hover{
+    color: #B31748;
   }
