@@ -66,3 +66,26 @@
 *::-webkit-scrollbar {
     display: none;
   }
+
+  #legenda-foto{
+    position: absolute;
+    bottom: 0;
+    left: 10%;
+    right: 0;
+    color: #fff;
+    padding: 1%;
+    font-family: 'PT Sans Narrow', sans-serif;
+    top:50%;
+    font-size: 20px;
+    
+  }
+  
+  .legenda-button:hover{
+    color:#B31748;
+  }
+  
+  .legenda-button{
+    text-stroke: 1px #DDA0DD;
+    -webkit-text-stroke: 1px #DDA0DD;
+    color:#866512;
+  }
