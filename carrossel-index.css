@@ -78,7 +78,7 @@
     padding: 1%;
     font-family: 'PT Sans Narrow', sans-serif;
     top: 75vh;
-    font-size: 100%;
+    font-size: 1vw;
     color: #DDA0DD;
     text-shadow: 2px 2px 4px  rgba(0, 0, 0, 1);
     
@@ -96,7 +96,7 @@
   #icones{
     position: fixed;
     bottom: 50px;
-    right: 100px;
+    right: 10vw;
     z-index: 999;
     text-decoration: none;
   }
