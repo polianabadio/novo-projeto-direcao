@@ -3,6 +3,7 @@
     margin:0;
     padding: 0;
 }
+@media screen and (min-width: 601px) {
 #caixa-da-nav{
     font-family: 'PT Sans Narrow', sans-serif;
     display: flex;
@@ -51,4 +52,56 @@ a:hover{
     top: 1vh;
     left: 80vw;
     
+}}
+
+@media screen and (max-width: 600px) {
+    #caixa-da-nav{
+        font-family: 'PT Sans Narrow', sans-serif;
+        display: flex;
+        background-color: #DDA0DD;
+        height: 9vh;
+        width: 100vw;
+        box-shadow: 0.5vh 0.8vh 0.8vh #866512;
+        justify-content: space-evenly;
+        
+    }
+    
+    #logo-nav{
+        position: absolute;
+        display: flex;
+        height: 10vh;
+        top:-0vh;
+        left: 0;
+    }
+    
+    li{
+        display: inline-block;
+        margin-right: 0.5vw;
+    }
+    a{
+        color: #866512;
+        font-weight:bold;
+        text-decoration: none;
+    }
+    
+    a:hover{
+        color:#B31748;
+    }
+    
+    #botoes-centrais{
+        position: absolute;
+        display: inherit;
+        left: 18vw;
+        font-size: 2vh;
+        top:3vh;
+        
+    }
+    
+    #botoes-esquerda{
+        position: absolute;
+        display: flex;
+        top: 1vh;
+        left: 85vw;
+        
+    }
 }
