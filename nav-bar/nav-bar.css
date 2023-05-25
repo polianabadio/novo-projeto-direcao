@@ -8,11 +8,12 @@
     font-family: 'PT Sans Narrow', sans-serif;
     display: flex;
     background-color: #DDA0DD;
-    height: 10vh;
-    width: 100vw;
-    box-shadow: 0.5vh 0.8vh 0.8vh #866512;
+    height: 11vh;
+    width: 100%;
     justify-content: space-evenly;
-    
+    z-index: 99;
+    background:linear-gradient(to left, #DDA0DD 0%, #B31748 700%);
+    border: 1px solid #B31748;
 }
 
 #logo-nav{
@@ -49,7 +50,7 @@ a:hover{
 #botoes-esquerda{
     position: absolute;
     display: flex;
-    top: 1vh;
+    top: 2vh;
     left: 80vw;
     
 }}
@@ -61,9 +62,10 @@ a:hover{
         background-color: #DDA0DD;
         height: 9vh;
         width: 100vw;
-        box-shadow: 0.5vh 0.8vh 0.8vh #866512;
         justify-content: space-evenly;
-        
+        z-index: 999;
+        background:linear-gradient(to left, #DDA0DD 0%, #B31748 700%);
+        border: 1px solid #B31748;
     }
     
     #logo-nav{
