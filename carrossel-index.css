@@ -113,9 +113,7 @@
   }
 
   @media screen and (max-width: 800px) {
-    #gallery{
-      height: 90vh;
-    }
+    
     #legenda-foto{
       font-size: 3vw;
       width: 87vw;
