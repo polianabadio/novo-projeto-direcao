@@ -29,12 +29,14 @@ fetch('./nav-bar/nav-bar.html')
           modal.style.display = "none";
         }
 
-        function mostrarCadastro() {
+      function mostrarCadastro() {
             const modal = document.getElementById('modal-cadastro');
             modal.style.display = "block";
-          }
+        }
     
-        function ocultarCadastro () {
+      function ocultarCadastro () {
             const modal = document.getElementById('modal-cadastro');
             modal.style.display = "none";
-          }
+         }
+      
+      

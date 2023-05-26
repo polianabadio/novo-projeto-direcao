@@ -129,7 +129,8 @@ a:hover{
 #btn-close{
     position: fixed;
     color: #866512;
-    left: 58vw;
+    left: 59vw;
+    top:12.5vh;
 }
 
 #btn-close:hover{
