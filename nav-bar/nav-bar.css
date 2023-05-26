@@ -61,7 +61,7 @@ a:hover{
 /*CSS DO MODAL LOGIN*/
 #modal-login{
     font-size: 1.3vw;
-    display:block;
+    display:none;
     z-index: 9999;
     position: fixed;
     top:10vh;
@@ -197,7 +197,7 @@ a:hover{
     }
     /*CSS DO MODAL LOGIN*/
 #modal-login{
-    display:block;
+    display:none;
     z-index: 9999;
     position: fixed;
     top:10vh;
@@ -214,7 +214,6 @@ a:hover{
 }
 
 .login{
-
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -222,12 +221,16 @@ a:hover{
     padding: 3vw;
     border-radius: 10px;
     border: 4px solid #866512;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    -ms-border-radius: 10px;
+    -o-border-radius: 10px;
 }
 
 .login form{
     margin-top: 15%;
     display: flex;
-    width: 80vw;
+    width: 70vw;
     flex-direction: column;
 }
 .login input{
@@ -264,7 +267,7 @@ a:hover{
 #btn-close{
     position: fixed;
     color: #866512;
-    left: 83vw;
+    left: 80vw;
 }
 
 #btn-close:hover{
@@ -277,3 +280,6 @@ a:hover{
 }
 }
 
+#enviar:hover{
+background-color: #DDA0DD;
+}
