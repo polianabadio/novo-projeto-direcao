@@ -2,7 +2,6 @@
 *{
     margin:0;
     padding:0;
-    
 }
 
 #gallery{
@@ -78,12 +77,11 @@
     padding: 1%;
     font-family: 'PT Sans Narrow', sans-serif;
     top: 75vh;
-    font-size: 1vw;
+    font-size: 1.5vw;
     color: #DDA0DD;
     text-shadow: 2px 2px 4px  rgba(0, 0, 0, 1);
-    
     height: 0.8vh;
-    width: 31vw;
+    width: 42.5vw;
     border-radius: 10px ;
     border: 2px solid #DDA0DD;
   }
