@@ -144,6 +144,7 @@ a:hover{
 
 @media screen and (max-width: 800px) {
     #caixa-da-nav{
+        position: fixed;
         font-family: 'PT Sans Narrow', sans-serif;
         display: flex;
         background-color: #DDA0DD;
