@@ -28,3 +28,13 @@ fetch('./nav-bar/nav-bar.html')
           const modal = document.getElementById('modal-login');
           modal.style.display = "none";
         }
+
+        function mostrarCadastro() {
+            const modal = document.getElementById('modal-cadastro');
+            modal.style.display = "block";
+          }
+    
+        function ocultarCadastro () {
+            const modal = document.getElementById('modal-cadastro');
+            modal.style.display = "none";
+          }

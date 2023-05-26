@@ -81,11 +81,34 @@
           </form>
           <span id="cadastre">
             <p>Não possui cadastro?</p>
-            <a id="btn-cadastre" href="#">Cadastre-se</a>
+            <a id="btn-cadastre" href="#" onclick="ocultar(); mostrarCadastro()" >Cadastre-se</a>
           </span>
     </div>
       </section>
         </div>
+
+        <div id="modal-cadastro">
+          <section class="area-cadastro">
+            <div class="cadastro">
+              <span onclick="ocultarCadastro ()" id="btn-close-cadastro">
+                <svg xmlns="http://www.w3.org/2000/svg" width="23" height="23" fill="currentColor" class="bi bi-x-circle-fill" viewBox="0 0 16 16">
+                <path d="M16 8A8 8 0 1 1 0 8a8 8 0 0 1 16 0zM5.354 4.646a.5.5 0 1 0-.708.708L7.293 8l-2.647 2.646a.5.5 0 0 0 .708.708L8 8.707l2.646 2.647a.5.5 0 0 0 .708-.708L8.707 8l2.647-2.646a.5.5 0 0 0-.708-.708L8 7.293 5.354 4.646z"/>
+                </svg>
+              </span>
+              
+              <form>
+                <label>Digite seu e-mail: <span id="obrigatorio">*</span></label>
+                <input type="text" placeholder="E-mail" id="email">
+                <label>Confirme seu E-mail: <span id="obrigatorio">*</span></label>
+                <input type="text" placeholder="E-mail" id="confirma-email">
+                <label>Digite a sua senha: <span id="obrigatorio">*</span></label>
+                <input type="password" placeholder="Senha" id="Login">
+                <label>Confirme a sua senha: <span id="obrigatorio">*</span></label>
+                <input type="password" placeholder="Senha" id="confirma-senha">
+                <input type="checkbox" id="checkbox" name="minhaCaixaDeSelecao" placeholder="minhaCaixaDeSelecao">
+                <label for="minhaCaixaDeSelecao" id="label-check">Desejo receber atualizações e novidades no meu e-mail! <span id="obrigatorio">*</span></label>
+                <input id="enviar-cadastro" type="submit" >
+              </form>
   </main>
 
   <script src="nav-bar.js"></script>

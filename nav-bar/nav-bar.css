@@ -142,72 +142,20 @@ a:hover{
 }
 }
 
-@media screen and (max-width: 800px) {
-    #caixa-da-nav{
-        position: fixed;
-        font-family: 'PT Sans Narrow', sans-serif;
-        display: flex;
-        background-color: #DDA0DD;
-        height: 9vh;
-        width: 100vw;
-        justify-content: space-evenly;
-        z-index: 999;
-        background:linear-gradient(to left, #DDA0DD 0%, #B31748 700%);
-        border: 1px solid #B31748;
-    }
-    
-    #logo-nav{
-        position: absolute;
-        display: none;
-        height: 6vh;
-        top:1.8vh;
-        left: 0;
-    }
-    
-    li{
-        display: inline-block;
-        margin-right: 1vw;
-    }
-    a{
-        color: #866512;
-        font-weight:bold;
-        text-decoration: none;
-    }
-    
-    a:hover{
-        color:#B31748;
-    }
-    
-    #botoes-centrais{
-        position: absolute;
-        display: inherit;
-        left: 3vw;
-        font-size: 2vh;
-        top:3vh;
-        
-    }
-    
-    #botoes-esquerda{
-        position: absolute;
-        display: flex;
-        top: 1vh;
-        left: 85vw;
-        
-    }
-    #caixa-da-nav .index{
-        color:#B31748;
-    }
-    /*CSS DO MODAL LOGIN*/
-#modal-login{
+#enviar:hover{
+background-color: #B31748;
+}
+
+#modal-cadastro{
     display:none;
     z-index: 9999;
     position: fixed;
-    top:10vh;
+    top:14vh;
     width: 100vw;
     height: 80vh;
-    font-size: 4vw;
+    font-size: 2.4vh;
 }
-.area-login{
+.area-cadastro{
     display: flex;
     justify-content: center;
     align-items: center;
@@ -215,7 +163,7 @@ a:hover{
     align-items: center;
 }
 
-.login{
+.cadastro{
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -229,19 +177,18 @@ a:hover{
     -o-border-radius: 10px;
 }
 
-.login form{
-    margin-top: 15%;
+.cadastro form{
     display: flex;
-    width: 70vw;
+    width: 18vw;
     flex-direction: column;
 }
-.login input{
-    margin-top: 1.5vh;
+.cadastro input{
+    margin-top: 1vh;
     background-color: white;
     border: none;
     padding-left: 1vw;
     color: #866512;
-    height: 6vh;
+    height: 5vh;
     outline: none;
     border-radius: 10px;
     border: 2px solid #866512;
@@ -249,6 +196,7 @@ a:hover{
     -moz-border-radius: 10px;
     -ms-border-radius: 10px;
     -o-border-radius: 10px;
+    margin-bottom: 1vh;
 }
 
 .input::placeholder::placeholder{
@@ -256,32 +204,188 @@ a:hover{
     font-size: 14px;
 }
 
-#cadastre{
-    position: flex;
-    margin-top: 3vh;
-    color: #866512;
-}
 
-#btn-cadastre:hover{
-    color:#B31748;
-}
 
-#btn-close{
+#btn-close-cadastro{
     position: fixed;
     color: #866512;
-    left: 80vw;
+    left: 59vw;
+    top: 17vh;
 }
 
-#btn-close:hover{
+#btn-close-cadastro:hover{
     color:#B31748
 }
 
-#img-modal{
-    position: flex;
-    margin-top: 7vh;
-}
+#obrigatorio{
+    color: #B31748;
 }
 
-#enviar:hover{
-background-color: #DDA0DD;
+label{
+    color: #866512;
 }
+
+#checkbox{
+    position: absolute;
+    width: 1.5vw;
+    top: 47vh;
+    margin-left: 1vw;
+    
+}
+
+#label-check{
+    margin-left: 3vw;
+}
+
+#enviar-cadastro:hover{
+    background-color: #B31748;
+    }
+
+    @media screen and (max-width: 800px) {
+        #caixa-da-nav{
+            position: fixed;
+            font-family: 'PT Sans Narrow', sans-serif;
+            display: flex;
+            background-color: #DDA0DD;
+            height: 9vh;
+            width: 100vw;
+            justify-content: space-evenly;
+            z-index: 999;
+            background:linear-gradient(to left, #DDA0DD 0%, #B31748 700%);
+            border: 1px solid #B31748;
+        }
+        
+        #logo-nav{
+            position: absolute;
+            display: none;
+            height: 6vh;
+            top:1.8vh;
+            left: 0;
+        }
+        
+        li{
+            display: inline-block;
+            margin-right: 1vw;
+        }
+        a{
+            color: #866512;
+            font-weight:bold;
+            text-decoration: none;
+        }
+        
+        a:hover{
+            color:#B31748;
+        }
+        
+        #botoes-centrais{
+            position: absolute;
+            display: inherit;
+            left: 3vw;
+            font-size: 2vh;
+            top:3vh;
+            
+        }
+        
+        #botoes-esquerda{
+            position: absolute;
+            display: flex;
+            top: 1vh;
+            left: 85vw;
+            
+        }
+        #caixa-da-nav .index{
+            color:#B31748;
+        }
+        /*CSS DO MODAL LOGIN*/
+    #modal-login{
+        display:none;
+        z-index: 9999;
+        position: fixed;
+        top:10vh;
+        width: 100vw;
+        height: 80vh;
+        font-size: 4vw;
+    }
+    .area-login{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        justify-content: center;
+        align-items: center;
+    }
+    
+    .login{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        background-color: #DDA0DD;
+        padding: 3vw;
+        border-radius: 10px;
+        border: 4px solid #866512;
+        -webkit-border-radius: 10px;
+        -moz-border-radius: 10px;
+        -ms-border-radius: 10px;
+        -o-border-radius: 10px;
+    }
+    
+    .login form{
+        margin-top: 15%;
+        display: flex;
+        width: 70vw;
+        flex-direction: column;
+    }
+    .login input{
+        margin-top: 1.5vh;
+        background-color: white;
+        border: none;
+        padding-left: 1vw;
+        color: #866512;
+        height: 6vh;
+        outline: none;
+        border-radius: 10px;
+        border: 2px solid #866512;
+        -webkit-border-radius: 10px;
+        -moz-border-radius: 10px;
+        -ms-border-radius: 10px;
+        -o-border-radius: 10px;
+    }
+    
+    .input::placeholder::placeholder{
+        color: white;
+        font-size: 14px;
+    }
+    
+    #cadastre{
+        position: flex;
+        margin-top: 3vh;
+        color: #866512;
+    }
+    
+    #btn-cadastre:hover{
+        color:#B31748;
+    }
+    
+    #btn-close{
+        position: fixed;
+        color: #866512;
+        left: 80vw;
+    }
+    
+    #btn-close:hover{
+        color:#B31748
+    }
+    
+    #img-modal{
+        position: flex;
+        margin-top: 7vh;
+    }
+    .cadastro form{
+        width: 70vw;
+    }
+
+    #btn-close-cadastro{
+        left: 80vw;
+        top:16vh;
+    }
+    
+    }
