@@ -7,6 +7,7 @@
 }
 @media screen and (min-width: 801px) {
 #caixa-da-nav{
+    position: fixed;
     display: flex;
     background-color: #DDA0DD;
     height: 11vh;
