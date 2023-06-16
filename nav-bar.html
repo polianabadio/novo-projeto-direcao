@@ -10,11 +10,13 @@
       @import url('https://fonts.googleapis.com/css2?family=PT+Sans+Narrow:wght@400;700&display=swap');
     </style>
   </head>
+  <!-- css da nav-bar -->
+  <link rel="stylesheet" href="/nav-bar.css">
 <body>
   <header>
     <nav id="caixa-da-nav">
         <ul class="botoes-da-nav">
-          <li><img title="logo no nav-bar" id="logo-nav" src="./img/logo.png.png"></li>
+          <li><img title="logo no nav-bar" id="logo-nav" src="./img/logo_direcao-removebg-preview-removebg-preview.png"></li>
           <span id="botoes-centrais">
           <li><a href="/novo-projeto-direcao/index.html" class="index">HOME</a></li>
           <li><a href="#">PORTIFÓLIO</a></li>
@@ -58,6 +60,7 @@
           </a>
         </div>
     </nav>
+    <div id="myIframe-overlay"></div>
   </header>
   <main>
     <div id="modal-login">
@@ -111,6 +114,11 @@
               </form>
   </main>
 
-  <script src="nav-bar.js"></script>
+  <script>
+    const API_URL = 'http://localhost:4200/novo-projeto-direcao/nav-bar.html';
+  </script>
+
+  <script src="/nav-bar.js"></script>
+  <script src="index.js"></script>
 </body>
 </html>

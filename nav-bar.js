@@ -1,10 +1,14 @@
-fetch('./nav-bar/nav-bar.html')
-     .then(response => response.text())
-     .then(data => {
-        const navbar = document.createElement('nav');
-        navbar.innerHTML = data;
-        document.body.insertBefore(navbar, document.body.firstChild);
-  });
+function carregarNavBar() {
+  var xhttp = new XMLHttpRequest();
+  xhttp.onreadystatechange = function() {
+    if (this.readyState == 4 && this.status == 200) {
+      // Insere o conteúdo recebido no elemento com id 'nav-bar-container'
+      document.getElementById("nav-bar-container").innerHTML = this.responseText;
+    }
+  };
+  xhttp.open("GET", "/nav-bar.html", true);
+  xhttp.send();
+}
 
   /*JAVA SCRIPT DO MODAL LOGIN*/
   function logar (){
